@@ -47,3 +47,30 @@ h2 {
 .user {
   width: 10rem;
 }
+
+.supreme {
+  height: auto;
+  width: 10rem;
+  transform: rotate(30deg);
+  position: absolute;
+  top: 20rem;
+  right: 20rem;
+}
+
+.palace {
+  height: auto;
+  width: 8rem;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+}
+
+.stone {
+  height: auto;
+  width: 8rem;
+  transform: rotate(30deg);
+  position: absolute;
+  top: 30rem;
+  left: 30rem;
+}
