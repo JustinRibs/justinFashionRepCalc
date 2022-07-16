@@ -54,7 +54,7 @@ h2 {
   transform: rotate(30deg);
   position: absolute;
   top: 20rem;
-  right: 20rem;
+  left: 30rem;
 }
 
 .palace {
@@ -63,7 +63,7 @@ h2 {
   transform: rotate(-30deg);
   position: absolute;
   top: 20rem;
-  left: 20rem;
+  left: 60rem;
 }
 
 .stone {
@@ -72,5 +72,5 @@ h2 {
   transform: rotate(30deg);
   position: absolute;
   top: 30rem;
-  left: 30rem;
+  left: 10rem;
 }
