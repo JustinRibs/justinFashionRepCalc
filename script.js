@@ -14,9 +14,13 @@ const equation = function (input) {
 openModal.addEventListener('click', () => {
   const userInput = Number(document.querySelector('.user').value);
   modal.showModal();
-  displayMessage(
-    `${userInput} Chinese Yuan converts to ${equation(userInput)} US Dollars.`
-  );
+  if (!userInput == '') {
+    displayMessage(
+      `${userInput} Chinese Yuan converts to ${equation(userInput)} US Dollars.`
+    );
+  } else {
+    displayMessage('You entered nothing, try again pal.');
+  }
 });
 
 closeModal.addEventListener('click', () => {
