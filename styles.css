@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap');
+
+* {
+  box-sizing: inherit;
+}
+
+.wholebody {
+  background: linear-gradient(45deg, #e66465, #9198e5);
+  background-attachment: fixed;
+  font-family: 'BioRhyme';
+  display: flexbox;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+.enter {
+  background-color: lightsteelblue;
+  border-radius: 12px;
+}
+
+h2 {
+  text-align: center;
+}
+.user-input-box {
+  text-align: center;
+}
+
+.modal {
+  background-color: #9198e5;
+  border-radius: 7px;
+  padding: 18px;
+  border-width: 4px;
+  backdrop-filter: blur(20px);
+}
+
+.close-button {
+  size: 6px;
+  border-radius: 12px;
+  background-color: slategrey;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.user {
+  width: 10rem;
+}
